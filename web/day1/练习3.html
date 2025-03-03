@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习3</title>
+</head>
+<body>
+<h1>表单练习</h1>
+<form action="https://localhost:8080/test/form" method="post" >
+    <b>用户名:</b><input type="text" maxlength="5" name="username" value="abc" placeholder="用户名">
+    <b>密码</b><input type="password" name="password" placeholder="密码"><br>
+    <b>性别</b><input type="radio" value="man" id="r1"><label for="r1">男</label>
+    <input type="radio" value="women" id="r2" ><label for="r2" >女</label><br>
+    <b> 兴趣爱好</b>
+    <input type="checkbox" value="smoking" id="c1" name="hobby"><label for="c1">抽烟</label>
+    <input type="checkbox" value="drinking" id="c2" name="hobby"><label for="c2">喝酒</label>
+    <input type="checkbox" value="perming" id="c3" name="hobby"><label for="c3">烫头</label><br>
+    <b>生日</b><input type="date" name="bir"><br>
+    <b> 靓照</b><input type="file" name="src"><br>
+    <b>所在地</b><select name="region">
+    <option value="shanghai" >上海</option>
+    <option value="beijing" >北京</option>
+    <option value="guangzhou" >广州</option>
+</select>
+    <button type="submit" value="注册" >注册</button>
+</form>
+</body>
+</html>
